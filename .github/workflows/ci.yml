@@ -1,0 +1,9 @@
+name: Consumir Workflow
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  llamar-workflow:
+    uses: mscgh-poc/.github/.github/workflows/reusable-hola-mundo.yml@main
