@@ -5,4 +5,4 @@ on:
 
 jobs:
   llamar-workflow:
-    uses: mscgh-poc/.github/.github/workflows/reusable-hola-mundo.yml@main
+    uses: mscgh-poc/.github/.github/workflows/main.yml@main
